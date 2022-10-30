@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header> 
+
+        <h1>Bienvenue sur mon Portfolio</h1>
+
+        <h2>Vous retrouverez sur ce site mes travaux rendus aux cours 
+            de mon année à l'IIM en art du digital</h2>
+    </header>
+    
+    <p>Je suis Maily Dos Santos et sur ce site vous serez informer de chacun de mes rendus en digital art avec nos 5 axes principaux 
+        : créa/design, animation 3d, jeux vidéos, marketing et coding.
+    </p> 
+
+     <div class="boite">
+        Axe Créa & design
+        Confection d'une cover d'album de l'artiste Pomme 
+        <img src="images/Portfolio">
+    </div>
+    
+    <div class="boite2">
+        Axe Jeu vidéo
+        Création d'un jeu vidéo innovant
+        <img src="images/Portfolio">
+    </div>
+
+    <div class="boite3">
+        Axe Marketing
+        Fausse création d'une start up de réfrigérateur
+        <img src="images/Portfolio">
+    </div>
+
+    <div class="boite4">
+        Axe Animation 3d
+        Appartement travailler sur Blender
+        <img src="images/Portfolio">
+    </div>
+
+    <div class="boite5">
+       Axe Coding
+       Site d'objet connectés sur visual studio
+       <img src="images/Portfolio">
+    </div>
+
+
+<footer>
+    <div> <section class="container">
+
+        <div class="Adresses">
+           Adresses
+        :
+        47 Bd de Pesaro, 92000 Nanterre
+           </div>
+       
+        <div class="Contact">
+        Contact
+    
+        
+        Tel: 07 64 62 42 70
+    Mail : dossantosmaily@gmail.com
+        </div>
+</footer>
+</body>
+</html>
+body {
+    background-color: beige;
+   }
+   
+   h1 {
+       color: burlywood;
+       font-size: 36px;
+       text-align: center;
+   }
+   
+   p{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+div  { 
+    margin: 10em auto;
+    width:20em;
+    background-color:rgb(212, 139, 139)
+ }
+
+h2{
+    color:rgb(197, 183, 147);
+    text-decoration:underline;
+}
+
+.boite{
+    transform:translate(5em,5em) ;
+}
+.boite2{
+    transform: translate(5em,5em);
+}
+.boite3{
+    transform:translate(5em,5em);
+}
+
+.boite4{
+    transform: translate(5em,5em);
+}
+
+.boite5{
+    transform: translate(5em,5em);
+}
+
+   
+   .container {
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.Adresses {
+
+    width: 40%;
+    height: 70px;
+    border: solid 2px ;
+}
+
+.Contact {
+
+    width:  40%;
+    height: 70px;
+    border: solid 2px 
+
+}
+
+
+.container2 {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.container2 img {
+
+    width: 70%;
+}
+.container2 div {
+
+    width: 70%;
+}
+
