@@ -33,6 +33,32 @@
     
     <div class="boite2">
         Axe Jeu vidéo
+        
+        JS
+        const button = document.querySelector("#btn");
+const list = document.querySelector("#list");
+
+button.addEventListener("click", function() {
+    const li = document.createElement("li");
+    const text = document.createTextNode("stéphane boulot🔥");
+
+   li.append(text);
+   list.append(li);
+})
+
+const h1 = document.querySelector("h1")
+const body = document.querySelector("body")
+const body1 = document.querySelector("body1")
+const div = document.querySelectorAll("div");
+const button2 = document.querySelector("button");
+
+button2.addEventListener ("click", function(){
+    body.style.backgroundColor ="#background-color: rgb(242, 242, 230)"
+    body1.style.color ="# blanchedalmond"
+
+})
+
+console.log(paragraphs)
         Création d'un jeu vidéo innovant
         <img src="images/Portfolio">
     </div>
